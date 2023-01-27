@@ -1,7 +1,7 @@
-div{
+/* div{
     color: red;
     background-color: aqua;
-}
+} */
 .bg-green{
     background-color: yellowgreen;
     color: orange;
@@ -13,4 +13,34 @@ div{
 }
 .bg-orange{
     background-color: orange !important;
+}
+/*
+Justify-content: center
+Justify-content: flex-end
+Justify-content: space-between
+Justify-content: space-around
+Justify-content: space-evenly
+align-item: center;
+align-items: flex-end;
+align-items: flex-start;
+align-items: stretch;
+
+
+*/
+#parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.box{
+    border: 1px solid black;
+    /* text-align: center; */
+    /* height: 100px; */
+    width: 100px;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: bisque;
+
 }
