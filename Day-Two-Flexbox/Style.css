@@ -1,0 +1,16 @@
+div{
+    color: red;
+    background-color: aqua;
+}
+.bg-green{
+    background-color: yellowgreen;
+    color: orange;
+
+}
+#div-1 {
+    font-weight: bold;
+    color: blue ;
+}
+.bg-orange{
+    background-color: orange !important;
+}
