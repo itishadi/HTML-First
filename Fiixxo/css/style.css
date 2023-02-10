@@ -135,12 +135,19 @@ body {
   background-color: #ff7373;
   color: #ffffff;
   padding: 15px 50px;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  transition: background-color 0.25s;
 }
 
 .btn-theme:hover {
   background-color: #222529;
   color: #ffffff;
   text-decoration: none;
+  /* box-shadow: 0 0 4px 5px rgba(0,0,0,0.3); */
+ 
 }
 
 /* showcase */
