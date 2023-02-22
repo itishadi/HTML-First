@@ -1,0 +1,39 @@
+// sorlek på skärm
+$breakponit-md: 768px;
+$breakponit-lg: 992px;
+$breakponit-xl: 1200px;
+$breakponit-xxl: 1400px;
+$breakponit-xxxl: 1920px;
+
+// storlek på kontainer
+$minmaxwidth-md: 720px;
+$minmaxwidth-lg: 960px;
+$minmaxwidth-xl:1140px;
+$minmaxwidth-xxl: 1320px;
+$minmaxwidth-xxxl: 1540px;
+
+@mixin md {
+    @media (min-width: $minmaxwidth-md) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width: $minmaxwidth-lg) {
+        @content;
+    }
+}
+@mixin xl {
+    @media (min-width: $minmaxwidth-xl) {
+        @content;
+    }
+}
+@mixin xxl {
+    @media (min-width: $minmaxwidth-xxl) {
+        @content;
+    }
+}
+@mixin xxxl {
+    @media (min-width: $minmaxwidth-xxxl) {
+        @content;
+    }
+}
